@@ -1,0 +1,234 @@
+@media screen and (max-width:1280px){
+  /*desktop*/
+ }
+@media screen and (max-width:992px){
+  /*leptop*/
+  .header_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ocean_section .maintext_wrapper {
+    position: absolute;
+    top: 0;
+    margin: 51px 81px;
+    width: 81%;
+}
+.ocean_section .maintext_wrapper h1 {
+    letter-spacing: 0px;
+  }
+  .ocean_section .maintext_wrapper h2 {
+    font-size: 39px;
+    letter-spacing: -2px;
+}
+.main_button {
+    text-align: center;
+    margin-top: 36px;
+}
+.icons_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7px;
+    padding-left: 16px;
+    margin-top: 55px;
+}
+.main_button a {
+    color: white;
+    background: #51c03d;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    width: 288px;
+    border: 2px solid #629ec5;
+    padding: 0px 40px 4px 40px;
+}
+
+
+}
+@media screen and (max-width:768px){
+  /*tablet*/
+   .header_wrapper{
+     width: 100%;
+    display: block;
+  }
+  .menu {
+    padding: 12px 0px;
+}
+.ocean_section .maintext_wrapper {
+    position: absolute;
+    top: 0;
+    margin: 31px 164px;
+    width: 60%;
+}
+.maintext_wrapper {
+    position: absolute;
+    top: 0;
+    margin: 18px 185px;
+    width: 60%;
+}
+.ocean_section .maintext_wrapper h1 {
+    font-size: 42px;
+    letter-spacing: 7px;
+}
+.ocean_section .maintext_wrapper h2 {
+    font-size: 28px;
+    letter-spacing: -2px;
+}
+.main_button {
+    text-align: center;
+   margin-top: 10px;
+}
+.main_button a {
+  font-size: 24px;
+padding: 0px 29px 7px 19px;
+}
+.pictures_block {
+    width: 436px;
+}
+.pictures_block ul {
+    display: flex;
+    padding-top: 27px;
+    padding-left: 0px;
+}
+.pictures_block ul li {
+    list-style: none;
+    padding-right: 10.3px;
+}
+/*icons*/
+.icons_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+   padding-right: 0px;
+   padding-left: 0px;
+  margin-top: 55px;
+}
+.icons_wrapper .oval_browser {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: white;
+}
+.icons_wrapper .oval_browser {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: white;
+}
+.icons_wrapper .oval_browser img {
+    padding: 10px;
+}
+.icons_wrapper .oval_shoping {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: white;
+    padding: 19px;
+}
+.icons_wrapper .oval_photografy {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: white;
+    padding: 37px 23px;
+}
+.icons_wrapper .oval_search {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: white;
+    padding: 28px 26px;
+}
+}
+
+
+@media screen and (max-width:480px){
+  /*mobile*/
+  .logo {
+    padding: 0px 26px;
+}
+  .logo img{
+    width: 156px;
+  }
+  .menu ul {
+      display: block;
+  }
+  .ocean_section .maintext_wrapper {
+     position: absolute;
+     top: 0;
+     margin: 0px;
+     width: 60%;
+ }
+ .ocean_section .maintext_wrapper {
+    position: absolute;
+    top: 0;
+    margin: 0px;
+    width: 98%;
+    margin-top: 89px;
+}
+.ocean_section .maintext_wrapper h1 {
+    font-size: 29px;
+    letter-spacing: 5px;
+}
+.main_button {
+    text-align: center;
+    margin-top: 17px;
+}
+.grey_section {
+    height: 677px;
+}
+.grey_text {
+    margin-top: 382px;
+}
+.grey_text h4 {
+    font-size: 23px;
+}
+.grey_text h5 {
+    font-size: 20px;
+}
+.pictures_block {
+    width: 273px;
+}
+.pictures_block ul {
+    display: inline-block;
+    padding-top: 27px;
+    padding-left: 12px;
+}
+
+/*icon_item*/
+.icons_wrapper {
+    background: white;
+}
+.icons_wrapper .oval_browser img {
+    padding: 19px;
+    width: 80px;
+    height: 80px;
+}
+.icons_wrapper .oval_shoping {
+    padding: 14px 0px;
+}
+.oval_shoping img{
+  width: 48px;
+    height: 48px;
+
+}
+.icons_wrapper .oval_photografy  {
+    width: 116px;
+    height: 116px;
+    padding: 0px 0px;
+}
+.icons_wrapper .oval_photografy img {
+    width: 54px;
+    height: 88px;
+    padding: 22px 0px;
+}
+.icons_wrapper .oval_search {
+    padding: 22px 19px;
+}
+.oval_search img{
+  width: 50px;
+}
+}
